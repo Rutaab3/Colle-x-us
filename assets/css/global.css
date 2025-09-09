@@ -1,0 +1,157 @@
+/* ============================
+   Global Styles
+============================ */
+body {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  color: #212529;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+}
+
+/* ============================
+   Navbar
+============================ */
+.navbar-brand {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+.navbar-nav .nav-link:hover {
+  color: #ffc107 !important;
+}
+
+/* ============================
+   Hero Section
+============================ */
+header {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('../images/assets_task_01k4qp36feef49pwb9pjhmwgqy_1757436578_img_1.webp') center/cover no-repeat;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+}
+
+/* ============================
+   Cards (Events, Gallery)
+============================ */
+.card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+.card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+/* Category pill */
+.card .badge {
+  font-size: 0.75rem;
+  padding: 6px 10px;
+  border-radius: 20px;
+}
+
+/* Bookmark button */
+.bookmark-btn {
+  border-radius: 50%;
+  background-color: #fff !important;
+  border: 1px solid #dee2e6;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+.bookmark-btn:hover {
+  background-color: #0d6efd !important;
+  color: #fff !important;
+}
+.bookmark-btn i {
+  font-size: 1rem;
+}
+
+/* ============================
+   Modals
+============================ */
+.modal-content {
+  border-radius: 12px;
+}
+.modal-body h3 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.modal-body p {
+  margin-bottom: 8px;
+}
+.modal-body img {
+  border-radius: 8px;
+}
+
+/* ============================
+   Footer
+============================ */
+footer {
+  background-color: #212529;
+}
+footer h5 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+footer p, 
+footer a, 
+footer li {
+  font-size: 0.9rem;
+}
+footer a:hover {
+  color: #ffc107;
+}
+footer .social-icons a {
+  font-size: 1.2rem;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+footer .social-icons a:hover {
+  color: #0d6efd;
+}
+
+/* ============================
+   Buttons
+============================ */
+.btn {
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+/* ============================
+   Responsive Tweaks
+============================ */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+  .card img {
+    height: 180px;
+  }
+  footer .row > div {
+    margin-bottom: 2rem;
+  }
+}

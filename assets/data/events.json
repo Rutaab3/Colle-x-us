@@ -1,0 +1,110 @@
+[
+  {
+    "id": "EVT001",
+    "title": "TechFest 2025",
+    "date": "2025-07-20",
+    "time": "10:00 AM – 4:00 PM",
+    "venue": "Main Auditorium",
+    "department": "Computer Science",
+    "category": "Technical",
+    "organizer": "Dr. John Smith",
+    "image": "assets/images/events/techfest2025.jpg",
+    "description": "TechFest 2025 promises to be the highlight of the academic year, featuring hackathons, robotics challenges, and coding marathons. Students will compete in teams to solve real-world problems, guided by expert mentors and supported by industry partners. The festival also includes workshops on AI, cybersecurity, and data science, providing hands-on experience. Keynote speakers from leading tech companies will inspire innovation. Networking sessions will connect participants with alumni and professionals. The event is designed to encourage creativity, teamwork, and resilience. With prizes, recognition, and opportunities for internships, TechFest 2025 is set to create lasting memories and inspire future technological leaders."
+  },
+  {
+    "id": "EVT002",
+    "title": "Cultural Week Fiesta",
+    "date": "2025-09-05",
+    "time": "5:00 PM – 10:00 PM",
+    "venue": "Open Air Theatre",
+    "department": "Arts & Humanities",
+    "category": "Cultural",
+    "organizer": "Prof. Sarah Khan",
+    "image": "assets/images/events/cultural_week2025.jpg",
+    "description": "Cultural Week Fiesta 2025 will celebrate diversity, traditions, and artistic expression through music, dance, theatre, and exhibitions. Students from every department will showcase performances highlighting regional cultures and global art forms. A talent hunt will provide opportunities for hidden stars to shine on stage, while fashion shows and art galleries will enhance creativity. Audiences will experience an immersive journey through food stalls, handicrafts, and cultural quizzes. The fiesta is designed to promote inclusivity, respect for traditions, and global awareness. Organizers expect strong community participation, creating an atmosphere filled with energy, joy, and meaningful cultural exchange across the campus."
+  },
+  {
+    "id": "EVT003",
+    "title": "Sports Meet 2025",
+    "date": "2025-11-12",
+    "time": "9:00 AM – 6:00 PM",
+    "venue": "College Sports Complex",
+    "department": "Physical Education",
+    "category": "Sports",
+    "organizer": "Coach Ahmed Raza",
+    "image": "assets/images/events/sports_meet2025.jpg",
+    "description": "The Annual Sports Meet 2025 will showcase athletic excellence and teamwork as students compete in track events, football, cricket, and basketball. The competition aims to promote physical fitness, discipline, and sportsmanship. Faculty and alumni athletes will serve as referees and mentors, ensuring a professional environment. Spectators can cheer for their departments, building unity and pride. Medals and trophies will be awarded to outstanding performers, while fun games and recreational events will involve the audience. The meet fosters healthy competition, resilience, and leadership. With vibrant opening and closing ceremonies, it will remain one of the most anticipated highlights of the year."
+  },
+  {
+    "id": "EVT004",
+    "title": "Science & Innovation Expo",
+    "date": "2026-01-25",
+    "time": "10:00 AM – 5:00 PM",
+    "venue": "Exhibition Hall",
+    "department": "Science and Engineering",
+    "category": "Academic",
+    "organizer": "Dr. Meera Patel",
+    "image": "assets/images/events/science_expo2026.jpg",
+    "description": "The Science & Innovation Expo 2026 will bring together projects from across departments, showcasing creativity and research in areas like renewable energy, healthcare solutions, and sustainable technology. Students will present prototypes, posters, and live demonstrations, evaluated by a panel of experts. Visitors will have the chance to interact with innovators, ask questions, and vote for their favorite projects. The expo aims to inspire curiosity and provide practical exposure to scientific research. Collaborative booths with industry partners will highlight cutting-edge developments. By combining education and creativity, the expo strengthens problem-solving skills and nurtures the next generation of scientists and innovators."
+  },
+  {
+    "id": "EVT005",
+    "title": "Entrepreneurship Summit 2026",
+    "date": "2026-02-18",
+    "time": "11:00 AM – 6:00 PM",
+    "venue": "Conference Center",
+    "department": "Business Administration",
+    "category": "Academic",
+    "organizer": "Prof. Daniel Roy",
+    "image": "assets/images/events/entrepreneurship2026.jpg",
+    "description": "The Entrepreneurship Summit 2026 will unite aspiring entrepreneurs, investors, and mentors in a day of collaboration and innovation. The event will include panel discussions, startup pitch competitions, and workshops on leadership and funding strategies. Keynote speakers from global business firms will share real-world insights into challenges and opportunities. Students will gain practical knowledge about launching ventures, managing risk, and developing sustainable business models. Networking sessions will connect innovators with industry leaders and potential investors. Awards will recognize the most promising startups. The summit aims to empower students to transform ideas into impactful enterprises, strengthening the entrepreneurial ecosystem."
+  },
+  {
+    "id": "EVT006",
+    "title": "Annual Alumni Meet 2026",
+    "date": "2026-03-10",
+    "time": "4:00 PM – 9:00 PM",
+    "venue": "Main Lawn",
+    "department": "Alumni Relations",
+    "category": "Cultural",
+    "organizer": "Alumni Association",
+    "image": "assets/images/events/alumni_meet2026.jpg",
+    "description": "The Annual Alumni Meet 2026 will reunite graduates from different batches, fostering nostalgia, mentorship, and community bonding. A formal welcome ceremony will honor distinguished alumni, followed by cultural performances and networking sessions. Interactive circles will allow alumni to share experiences with current students, offering guidance on careers, entrepreneurship, and further studies. The event will also launch a digital alumni-student mentorship portal, strengthening institutional ties. Food stalls and entertainment will create a festive environment. The evening will conclude with an awards ceremony recognizing alumni achievements. The meet highlights the importance of lifelong relationships and shared growth within the college community."
+  },
+  {
+    "id": "EVT007",
+    "title": "Literary Fest 2026",
+    "date": "2026-04-14",
+    "time": "10:00 AM – 6:00 PM",
+    "venue": "Seminar Hall",
+    "department": "English Literature",
+    "category": "Academic",
+    "organizer": "Prof. Ayesha Malik",
+    "image": "assets/images/events/literary_fest2026.jpg",
+    "description": "Literary Fest 2026 will celebrate the power of words through debates, poetry slams, and storytelling contests. Writers and professors will lead discussions on literature, culture, and modern media. Student participants will present original works, exploring themes of identity, history, and imagination. The fest will also feature creative writing workshops, open mic sessions, and book exhibitions. Judges will evaluate performances on originality and delivery, providing constructive feedback. The event fosters critical thinking, self-expression, and appreciation of literary arts. It is expected to attract strong participation, transforming the campus into a hub of creativity, inspiration, and intellectual collaboration throughout the festival."
+  },
+  {
+    "id": "EVT008",
+    "title": "Career Fair 2026",
+    "date": "2026-05-08",
+    "time": "9:00 AM – 3:00 PM",
+    "venue": "Convention Hall",
+    "department": "Career Services",
+    "category": "Professional",
+    "organizer": "Ms. Fatima Noor",
+    "image": "assets/images/events/career_fair2026.jpg",
+    "description": "The Career Fair 2026 will provide students with opportunities to connect with recruiters, explore job openings, and gain insights into professional growth. More than fifty companies from technology, finance, healthcare, and creative industries will participate, conducting interviews and information sessions. Career counselors will offer resume reviews, interview tips, and career planning guidance. The fair emphasizes building bridges between academia and industry. Networking opportunities will allow students to secure internships and full-time positions. The event reflects the institution’s commitment to employability, skill development, and practical preparation. Career Fair 2026 is expected to be a transformative step for many participants’ futures."
+  },
+  {
+    "id": "EVT009",
+    "title": "Environmental Awareness Drive",
+    "date": "2026-06-19",
+    "time": "8:00 AM – 2:00 PM",
+    "venue": "Campus Grounds",
+    "department": "Environmental Science",
+    "category": "Social",
+    "organizer": "Eco Club",
+    "image": "assets/images/events/environmental2026.jpg",
+    "description": "The Environmental Awareness Drive 2026 will focus on sustainability, conservation, and student responsibility toward nature. Activities will include tree plantation drives, recycling workshops, and awareness rallies. Guest speakers from environmental organizations will highlight global issues such as climate change and waste management. Students will participate in poster-making contests, eco-friendly product exhibitions, and cleanup campaigns. The initiative seeks to inspire practical environmental stewardship within the community. By connecting students with activists, policymakers, and industry leaders, the event aims to cultivate long-term responsibility and solutions. The drive will leave a visible impact, fostering an eco-conscious campus culture and global citizenship values."
+  }
+]

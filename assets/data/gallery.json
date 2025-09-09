@@ -1,0 +1,128 @@
+[
+  {
+    "id": "IMG001",
+    "title": "TechFest Opening Ceremony",
+    "date": "2024-07-21",
+    "category": "Technical",
+    "path": "assets/images/gallery/techfest_opening.jpg",
+    "description": "The opening ceremony of TechFest 2024 set the stage for an unforgettable festival celebrating creativity, coding, and innovation. Distinguished faculty members and alumni addressed a packed auditorium, inspiring students to embrace experimentation and collaboration. Robotics demonstrations added excitement as teams previewed their latest prototypes, sparking applause and curiosity. Music, multimedia presentations, and vibrant lighting effects created a festive environment that energized participants. Banners and themed décor highlighted the spirit of discovery and learning. The program successfully encouraged students to join workshops, competitions, and showcases, reminding everyone of the importance of community, curiosity, and technological progress within campus life.",
+    "recap": [
+      "assets/images/gallery/techfest_recap1.jpg",
+      "assets/images/gallery/techfest_recap2.jpg",
+      "assets/images/gallery/techfest_recap3.jpg",
+      "assets/images/gallery/techfest_recap4.jpg"
+    ]
+  },
+  {
+    "id": "IMG002",
+    "title": "Robotics Challenge Arena",
+    "date": "2024-08-12",
+    "category": "Technical",
+    "path": "assets/images/gallery/robotics_arena.jpg",
+    "description": "The Robotics Challenge Arena 2024 delivered thrilling contests where student-built machines faced obstacle courses, puzzles, and technical trials. Teams worked tirelessly in preparation zones, fine-tuning hardware and adjusting sensor codes before competing. Judges observed carefully, scoring each entry on innovation, execution, and precision, while volunteers ensured safety. Spectators filled the stands, cheering loudly with enthusiasm. Commentary simplified complex mechanisms for newcomers, encouraging wider appreciation of engineering creativity. The event captured the resilience of teams who persevered under pressure, demonstrating resourcefulness and collaboration. By combining mechanics, coding, and electronics, the arena revealed how practical engineering empowers young innovators and visionaries.",
+    "recap": [
+      "assets/images/gallery/robotics_recap1.jpg",
+      "assets/images/gallery/robotics_recap2.jpg",
+      "assets/images/gallery/robotics_recap3.jpg",
+      "assets/images/gallery/robotics_recap4.jpg"
+    ]
+  },
+  {
+    "id": "IMG003",
+    "title": "Cultural Dance Night",
+    "date": "2023-11-15",
+    "category": "Cultural",
+    "path": "assets/images/gallery/dance_night.jpg",
+    "description": "Cultural Dance Night 2023 transformed the campus amphitheater into a stage celebrating diversity, performance, and joy. Students presented classical, folk, and contemporary routines in dazzling costumes, each routine telling stories from different traditions. The stage glowed with bright colors and elaborate lighting, captivating audiences. Judges evaluated performances on coordination, expression, and creativity while offering constructive feedback. Crowds clapped along, building an atmosphere of encouragement and unity. Behind the scenes, volunteers ensured smooth transitions between acts. The evening concluded with a collaborative finale involving all groups, symbolizing harmony and teamwork. The event strengthened cultural pride and appreciation across generations.",
+    "recap": [
+      "assets/images/gallery/dance_recap1.jpg",
+      "assets/images/gallery/dance_recap2.jpg",
+      "assets/images/gallery/dance_recap3.jpg",
+      "assets/images/gallery/dance_recap4.jpg"
+    ]
+  },
+  {
+    "id": "IMG004",
+    "title": "Inter-college Football Finals",
+    "date": "2024-02-10",
+    "category": "Sports",
+    "path": "assets/images/gallery/football_finals.jpg",
+    "description": "The Inter-college Football Finals of 2024 showcased passion, endurance, and tactical brilliance on the sports field. Competing teams played with determination as fans packed the stands, waving banners and chanting in support. Coaches guided strategy from the sidelines while referees upheld fair play. The match intensified with every goal attempt, creating suspense and excitement. Spectators erupted with joy at the winning strike that secured the championship trophy. The celebration was marked by applause, camaraderie, and team pride. The finals reflected how sport unites communities, strengthens discipline, and nurtures lasting friendships, leaving behind stories of triumph, resilience, and unforgettable memories.",
+    "recap": [
+      "assets/images/gallery/football_recap1.jpg",
+      "assets/images/gallery/football_recap2.jpg",
+      "assets/images/gallery/football_recap3.jpg",
+      "assets/images/gallery/football_recap4.jpg"
+    ]
+  },
+  {
+    "id": "IMG005",
+    "title": "Science Project Displays",
+    "date": "2023-09-18",
+    "category": "Academic",
+    "path": "assets/images/gallery/science_projects.jpg",
+    "description": "The Science Project Displays of 2023 gathered creative minds to present models and experiments addressing real-world issues like clean energy, sustainable farming, and healthcare innovations. Students explained their projects with clarity using posters, charts, and prototypes, impressing faculty judges with originality and practical applications. Groups of younger schoolchildren visited throughout the day, sparking interest in science. Visitors voted for favorite displays, adding excitement and recognition. The event encouraged teamwork, critical thinking, and communication skills. By combining rigorous research with creativity, the exhibition highlighted the capacity of students to transform ideas into impactful solutions for communities and everyday challenges.",
+    "recap": [
+      "assets/images/gallery/science_recap1.jpg",
+      "assets/images/gallery/science_recap2.jpg",
+      "assets/images/gallery/science_recap3.jpg",
+      "assets/images/gallery/science_recap4.jpg"
+    ]
+  },
+  {
+    "id": "IMG006",
+    "title": "Blood Donation Drive",
+    "date": "2024-01-22",
+    "category": "Social",
+    "path": "assets/images/gallery/blood_donation.jpg",
+    "description": "The Blood Donation Drive of 2024 reflected compassion, responsibility, and solidarity across campus. Students eagerly lined up to participate, guided by medical staff who ensured safety and care throughout the process. Volunteers managed registration, provided refreshments, and shared informative posters about the importance of donation. Smiles and encouraging words created an uplifting atmosphere. Collaboration with local hospitals guaranteed proper collection and distribution. The event proved that small actions have significant impacts, saving lives and building awareness. It strengthened the bond between the institution and community, inspiring participants to remain engaged in social causes beyond academic routines and commitments.",
+    "recap": [
+      "assets/images/gallery/blood_recap1.jpg",
+      "assets/images/gallery/blood_recap2.jpg",
+      "assets/images/gallery/blood_recap3.jpg",
+      "assets/images/gallery/blood_recap4.jpg"
+    ]
+  },
+  {
+    "id": "IMG007",
+    "title": "Alumni Networking Session",
+    "date": "2024-03-05",
+    "category": "Cultural",
+    "path": "assets/images/gallery/alumni_networking.jpg",
+    "description": "The Alumni Networking Session of 2024 offered students a chance to engage with graduates, exchange insights, and gain mentorship. Tables were arranged into discussion circles focusing on entrepreneurship, global education, and career development. Alumni shared personal journeys of resilience, failures, and success, while students asked thoughtful questions. The atmosphere encouraged collaboration and meaningful dialogue. Laughter and nostalgia mixed with inspiration, strengthening bonds across generations. A highlight was the launch of a digital mentorship platform, connecting alumni to student clubs. This initiative symbolized the enduring relationship between the institution and its graduates, ensuring long-term guidance, encouragement, and opportunities.",
+    "recap": [
+      "assets/images/gallery/alumni_recap1.jpg",
+      "assets/images/gallery/alumni_recap2.jpg",
+      "assets/images/gallery/alumni_recap3.jpg",
+      "assets/images/gallery/alumni_recap4.jpg"
+    ]
+  },
+  {
+    "id": "IMG008",
+    "title": "Literary Fest Poetry Slam",
+    "date": "2023-10-09",
+    "category": "Academic",
+    "path": "assets/images/gallery/poetry_slam.jpg",
+    "description": "The Poetry Slam of Literary Fest 2023 celebrated language, creativity, and expression. Students performed original and classic pieces with passion, rhythm, and emotion, captivating audiences with powerful delivery. Judges scored participants on originality, clarity, and engagement, offering constructive feedback. An open mic segment encouraged inclusivity, welcoming diverse voices from different backgrounds and languages. Spectators responded warmly, applauding and encouraging performers. The session ended with opportunities for publication in the campus magazine, extending impact beyond the stage. The slam demonstrated how literature strengthens confidence, nurtures creativity, and promotes cultural exchange, inspiring both participants and audiences to embrace the art of words.",
+    "recap": [
+      "assets/images/gallery/poetry_recap1.jpg",
+      "assets/images/gallery/poetry_recap2.jpg",
+      "assets/images/gallery/poetry_recap3.jpg",
+      "assets/images/gallery/poetry_recap4.jpg"
+    ]
+  },
+  {
+    "id": "IMG009",
+    "title": "Athletics Track Event",
+    "date": "2024-04-11",
+    "category": "Sports",
+    "path": "assets/images/gallery/athletics_track.jpg",
+    "description": "The Athletics Track Event of 2024 showcased endurance, agility, and determination as students competed in sprints, relays, and long-distance races. Coaches motivated athletes from the sidelines, while referees monitored performance with accuracy and fairness. Supporters filled the stands, waving flags and cheering passionately for their teams. The competition emphasized teamwork and resilience, with medals awarded to outstanding runners. Younger students observed eagerly, inspired to take part in future meets. The track event reminded participants of the values of perseverance, health, and discipline, strengthening bonds across departments and reinforcing the role of sports in fostering community spirit and personal growth.",
+    "recap": [
+      "assets/images/gallery/athletics_recap1.jpg",
+      "assets/images/gallery/athletics_recap2.jpg",
+      "assets/images/gallery/athletics_recap3.jpg",
+      "assets/images/gallery/athletics_recap4.jpg"
+    ]
+  }
+]

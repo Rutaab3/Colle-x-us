@@ -1,0 +1,22 @@
+/* Rectangle Event Card */
+.event-card {
+  height: 250px;
+  border-radius: 12px;
+}
+
+.event-card-img {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+
+.event-card-overlay {
+  width: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}

@@ -1,0 +1,60 @@
+{
+  "faculty": [
+    {
+      "id": "FAC001",
+      "name": "Prof. Alice Johnson",
+      "designation": "Event Coordinator",
+      "department": "Electronics",
+      "email": "alice.johnson@xyzcollege.edu",
+      "phone": "+92-300-1234567",
+      "image": "assets/images/contacts/alice_johnson.jpg"
+    },
+    {
+      "id": "FAC002",
+      "name": "Dr. Imran Malik",
+      "designation": "Chief Organizer",
+      "department": "Computer Science",
+      "email": "imran.malik@xyzcollege.edu",
+      "phone": "+92-301-6543210",
+      "image": "assets/images/contacts/imran_malik.jpg"
+    },
+    {
+      "id": "FAC003",
+      "name": "Prof. Ayesha Noor",
+      "designation": "Cultural Events Head",
+      "department": "Arts & Humanities",
+      "email": "ayesha.noor@xyzcollege.edu",
+      "phone": "+92-302-9876543",
+      "image": "assets/images/contacts/ayesha_noor.jpg"
+    }
+  ],
+  "students": [
+    {
+      "id": "STU001",
+      "name": "Ahmed Raza",
+      "designation": "Sports Captain",
+      "department": "Physical Education",
+      "email": "ahmed.raza@student.xyzcollege.edu",
+      "phone": "+92-303-2468135",
+      "image": "assets/images/contacts/ahmed_raza.jpg"
+    },
+    {
+      "id": "STU002",
+      "name": "Fatima Khan",
+      "designation": "Student Cultural Coordinator",
+      "department": "English Literature",
+      "email": "fatima.khan@student.xyzcollege.edu",
+      "phone": "+92-304-1357924",
+      "image": "assets/images/contacts/fatima_khan.jpg"
+    },
+    {
+      "id": "STU003",
+      "name": "Bilal Ahmed",
+      "designation": "Student Technical Lead",
+      "department": "Information Technology",
+      "email": "bilal.ahmed@student.xyzcollege.edu",
+      "phone": "+92-305-1928374",
+      "image": "assets/images/contacts/bilal_ahmed.jpg"
+    }
+  ]
+}
