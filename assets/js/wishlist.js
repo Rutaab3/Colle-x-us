@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const btn = e.target.closest(".bookmark-btn");
       const data = JSON.parse(btn.dataset.item); // full event/gallery object
       toggleBookmark(data, btn);
+      setTimeout(updateWishlistCount, 100); // refresh badge
     }
   });
 
@@ -19,6 +20,9 @@ document.addEventListener("DOMContentLoaded", () => {
   if (wishlistModal) {
     wishlistModal.addEventListener("show.bs.modal", renderWishlist);
   }
+
+  // Initial counter update
+  updateWishlistCount();
 });
 
 // ---- Helpers ----
@@ -26,7 +30,7 @@ function showToast(type, title, text) {
   if (window.Swal && Swal.fire) {
     Swal.fire({
       toast: true,
-      position: "bottom-end",
+      position: "top-end",
       icon: type,           // "success", "info", "warning", "error"
       title: title,
       text: text,
@@ -56,6 +60,7 @@ function toggleBookmark(item, btn) {
   }
 
   localStorage.setItem("wishlist", JSON.stringify(wishlist));
+  updateWishlistCount();
 }
 
 // Render Wishlist (modal body)
@@ -65,6 +70,7 @@ function renderWishlist() {
 
   if (!wishlist.length) {
     body.innerHTML = `<p class="text-muted">No items added yet.</p>`;
+    updateWishlistCount();
     return;
   }
 
@@ -101,6 +107,7 @@ function renderWishlist() {
       }
 
       renderWishlist(); // refresh modal list
+      updateWishlistCount(); // 🔥 refresh counter bubble
       showToast("info", "Bookmark Removed", "Event removed from your bookmarks");
     });
   });
@@ -113,3 +120,17 @@ function removeFromWishlist(id, type) {
   localStorage.setItem("wishlist", JSON.stringify(wishlist));
 }
 
+// Update counter badge
+function updateWishlistCount() {
+  const wishlist = JSON.parse(localStorage.getItem("wishlist")) || [];
+  const countElement = document.querySelector(".wishlist-count");
+  if (countElement) {
+    countElement.textContent = wishlist.length;
+    countElement.style.display = wishlist.length > 0 ? "inline-block" : "none";
+
+    // Add animation class whenever count updates
+    countElement.classList.remove("wishlist-bounce");
+    void countElement.offsetWidth; // force reflow
+    countElement.classList.add("wishlist-bounce");
+  }
+}

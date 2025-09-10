@@ -8,9 +8,11 @@
     "department": "Computer Science",
     "category": "Technical",
     "organizer": "Dr. John Smith",
-    "image": "assets/images/events/techfest2025.jpg",
+    "image": "events/techfest.png",
     "description": "TechFest 2025 promises to be the highlight of the academic year, featuring hackathons, robotics challenges, and coding marathons. Students will compete in teams to solve real-world problems, guided by expert mentors and supported by industry partners. The festival also includes workshops on AI, cybersecurity, and data science, providing hands-on experience. Keynote speakers from leading tech companies will inspire innovation. Networking sessions will connect participants with alumni and professionals. The event is designed to encourage creativity, teamwork, and resilience. With prizes, recognition, and opportunities for internships, TechFest 2025 is set to create lasting memories and inspire future technological leaders."
   },
+
+  
   {
     "id": "EVT002",
     "title": "Cultural Week Fiesta",
@@ -23,6 +25,23 @@
     "image": "assets/images/events/cultural_week2025.jpg",
     "description": "Cultural Week Fiesta 2025 will celebrate diversity, traditions, and artistic expression through music, dance, theatre, and exhibitions. Students from every department will showcase performances highlighting regional cultures and global art forms. A talent hunt will provide opportunities for hidden stars to shine on stage, while fashion shows and art galleries will enhance creativity. Audiences will experience an immersive journey through food stalls, handicrafts, and cultural quizzes. The fiesta is designed to promote inclusivity, respect for traditions, and global awareness. Organizers expect strong community participation, creating an atmosphere filled with energy, joy, and meaningful cultural exchange across the campus."
   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   {
     "id": "EVT003",
     "title": "Sports Meet 2025",
@@ -56,7 +75,7 @@
     "department": "Business Administration",
     "category": "Academic",
     "organizer": "Prof. Daniel Roy",
-    "image": "assets/images/events/entrepreneurship2026.jpg",
+    "image": "assets/images/events/entrepreneurship.jpg",
     "description": "The Entrepreneurship Summit 2026 will unite aspiring entrepreneurs, investors, and mentors in a day of collaboration and innovation. The event will include panel discussions, startup pitch competitions, and workshops on leadership and funding strategies. Keynote speakers from global business firms will share real-world insights into challenges and opportunities. Students will gain practical knowledge about launching ventures, managing risk, and developing sustainable business models. Networking sessions will connect innovators with industry leaders and potential investors. Awards will recognize the most promising startups. The summit aims to empower students to transform ideas into impactful enterprises, strengthening the entrepreneurial ecosystem."
   },
   {
@@ -68,7 +87,7 @@
     "department": "Alumni Relations",
     "category": "Cultural",
     "organizer": "Alumni Association",
-    "image": "assets/images/events/alumni_meet2026.jpg",
+    "image": "events/aluminai.png",
     "description": "The Annual Alumni Meet 2026 will reunite graduates from different batches, fostering nostalgia, mentorship, and community bonding. A formal welcome ceremony will honor distinguished alumni, followed by cultural performances and networking sessions. Interactive circles will allow alumni to share experiences with current students, offering guidance on careers, entrepreneurship, and further studies. The event will also launch a digital alumni-student mentorship portal, strengthening institutional ties. Food stalls and entertainment will create a festive environment. The evening will conclude with an awards ceremony recognizing alumni achievements. The meet highlights the importance of lifelong relationships and shared growth within the college community."
   },
   {

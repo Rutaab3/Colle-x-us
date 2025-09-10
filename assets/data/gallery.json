@@ -4,10 +4,10 @@
     "title": "TechFest Opening Ceremony",
     "date": "2024-07-21",
     "category": "Technical",
-    "path": "assets/images/gallery/techfest_opening.jpg",
+    "path": "./assets/images/gallery/techr.jepg",
     "description": "The opening ceremony of TechFest 2024 set the stage for an unforgettable festival celebrating creativity, coding, and innovation. Distinguished faculty members and alumni addressed a packed auditorium, inspiring students to embrace experimentation and collaboration. Robotics demonstrations added excitement as teams previewed their latest prototypes, sparking applause and curiosity. Music, multimedia presentations, and vibrant lighting effects created a festive environment that energized participants. Banners and themed décor highlighted the spirit of discovery and learning. The program successfully encouraged students to join workshops, competitions, and showcases, reminding everyone of the importance of community, curiosity, and technological progress within campus life.",
     "recap": [
-      "assets/images/gallery/techfest_recap1.jpg",
+      "assets/images/gallery/techrecap.jpg",
       "assets/images/gallery/techfest_recap2.jpg",
       "assets/images/gallery/techfest_recap3.jpg",
       "assets/images/gallery/techfest_recap4.jpg"

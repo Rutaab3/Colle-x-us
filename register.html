@@ -6,16 +6,49 @@
   <title>Event Registration | Collexus</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/global.css">
+  <link rel="stylesheet" href="./assets/css/global.css">
 
 </head>
 <body>
-  <!-- Navbar (optional, reuse from your site) -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand fw-bold" href="index.html">Collexus</a>
+
+     <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">College Events</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto align-items-center">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="contacts.html">Contacts</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="feedback.html">Feedback</a></li>
+
+
+        <!-- Bookmark / Wishlist -->
+  <li class="nav-item">
+  <button class="btn btn-outline-warning btn-sm ms-2" data-bs-toggle="modal" data-bs-target="#wishlistModal">
+    <i class="bi bi-bookmark-heart"></i>
+  </button>
+</li>
+
+
+
+        <!-- Login / Signup buttons -->
+       <li class="nav-item ms-lg-3">
+  <div id="authArea" class="ms-auto">
+    <a href="login.html" class="btn btn-outline-light btn-sm" id="loginNavBtn">Login</a>
+  </div>
+</li>
+
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 
   <div class="container my-5">
   <div class="row g-4">
@@ -135,10 +168,124 @@
   </div>
 </div>
 
+<!-- Footer -->
+<footer class="bg-dark text-light pt-5">
+  <div class="container">
+    <div class="row text-md-start text-center">
+      
+      <!-- About -->
+      <div class="col-md-3 mb-4">
+        <h5 class="fw-bold">Collexus</h5>
+        <p class="small">
+          Collexus is your one-stop hub for college event management. 
+          Discover upcoming cultural, technical, and sports events here.
+        </p>
+      </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+      <!-- Quick Links -->
+      <div class="col-md-2 mb-4">
+        <h5 class="fw-bold">Quick Links</h5>
+        <ul class="list-unstyled small">
+          <li><a href="index.html" class="text-light text-decoration-none">Home</a></li>
+          <li><a href="events.html" class="text-light text-decoration-none">Events</a></li>
+          <li><a href="gallery.html" class="text-light text-decoration-none">Gallery</a></li>
+          <li><a href="about.html" class="text-light text-decoration-none">About</a></li>
+          <li><a href="contacts.html" class="text-light text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Event Categories -->
+      <div class="col-md-2 mb-4">
+        <h5 class="fw-bold">Events</h5>
+        <ul class="list-unstyled small">
+          <li><a href="events.html#cultural" class="text-light text-decoration-none">Cultural</a></li>
+          <li><a href="events.html#technical" class="text-light text-decoration-none">Technical</a></li>
+          <li><a href="events.html#sports" class="text-light text-decoration-none">Sports</a></li>
+          <li><a href="events.html#workshops" class="text-light text-decoration-none">Workshops</a></li>
+          <li><a href="events.html#alumni" class="text-light text-decoration-none">Alumni Meet</a></li>
+        </ul>
+      </div>
+
+      <!-- Gallery Categories -->
+      <div class="col-md-2 mb-4">
+        <h5 class="fw-bold">Galleries</h5>
+        <ul class="list-unstyled small">
+          <li><a href="gallery.html#cultural" class="text-light text-decoration-none">Cultural</a></li>
+          <li><a href="gallery.html#technical" class="text-light text-decoration-none">Technical</a></li>
+          <li><a href="gallery.html#sports" class="text-light text-decoration-none">Sports</a></li>
+          <li><a href="gallery.html#workshops" class="text-light text-decoration-none">Workshops</a></li>
+          <li><a href="gallery.html#alumni" class="text-light text-decoration-none">Alumni Meet</a></li>
+        </ul>
+      </div>
+
+      <!-- Stay Connected -->
+      <div class="col-md-3 mb-4">
+        <h5 class="fw-bold">Stay Connected</h5>
+        <ul class="list-unstyled small">
+          <li class="mb-2">
+            <i class="bi bi-geo-alt-fill me-2"></i>
+            <a href="contacts.html" class="text-light text-decoration-none">123 College Road, City</a>
+          </li>
+          <li class="mb-2">
+            <i class="bi bi-telephone-fill me-2"></i>
+            <a href="contacts.html" class="text-light text-decoration-none">+91-9876543210</a>
+          </li>
+          <li class="mb-2">
+            <i class="bi bi-envelope-fill me-2"></i>
+            <a href="contacts.html" class="text-light text-decoration-none">info@collexus.edu</a>
+          </li>
+        </ul>
+        <!-- Social Links -->
+        <div class="mt-3">
+          <a href="https://facebook.com" target="_blank" class="text-light me-3"><i class="bi bi-facebook fs-5"></i></a>
+          <a href="https://twitter.com" target="_blank" class="text-light me-3"><i class="bi bi-twitter fs-5"></i></a>
+          <a href="https://instagram.com" target="_blank" class="text-light me-3"><i class="bi bi-instagram fs-5"></i></a>
+          <a href="https://linkedin.com" target="_blank" class="text-light"><i class="bi bi-linkedin fs-5"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="border-light">
+
+    <!-- Bottom Row -->
+    <div class="d-flex justify-content-between align-items-center pb-3 flex-wrap small">
+      <p class="mb-2">&copy; 2025 Collexus. All rights reserved.</p>
+      <div class="mb-2">
+        <a href="privacy.html" class="text-light me-3 text-decoration-none">Privacy Policy</a>
+        <a href="terms.html" class="text-light me-3 text-decoration-none">Terms of Service</a>
+        <a href="cookies.html" class="text-light text-decoration-none">Cookies Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Wishlist Modal -->
+<div class="modal fade" id="wishlistModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">My Wishlist</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <!-- This body is managed entirely by wishlist.js -->
+      <div class="modal-body" id="wishlistBody">
+        <p class="text-muted">No items added yet.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/just-validate@4.3.0/dist/just-validate.production.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-  <script src="./assets/js/register.js"></script>
+
+<!-- jsPDF + QRCode must come BEFORE register.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+<!-- Your script -->
+<script src="./assets/js/register.js"></script>
+<script src="./assets/js/auth.js"></script>
+
 </body>
 </html>

@@ -141,3 +141,23 @@ document.addEventListener("click", (e) => {
     window.location.href = `register.html?event=${eventId}`;
   }
 });
+
+
+// Animations
+document.addEventListener("DOMContentLoaded", () => {
+  gsap.from(".navbar", {
+    y: -80,
+    opacity: 0,
+    duration: 0.8,
+    ease: "power3.out"
+  });
+
+  gsap.from(".navbar-nav .nav-item", {
+    y: -20,
+    opacity: 0,
+    stagger: 0.15,
+    delay: 0.5,
+    duration: 0.6,
+    ease: "power2.out"
+  });
+});

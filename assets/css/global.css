@@ -1,8 +1,24 @@
+:root {
+  --luxe-dark: #030303;
+  --luxe-cream: #fae4c0;
+  --luxe-gold: #fac760;
+  --luxe-light: #F9F6F0;
+
+  --text-primary: var(--luxe-dark);
+  --text-secondary: #555;
+  --bg-primary: var(--luxe-light);
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #f4f0ea;
+
+  --border-color: #ddd;
+  --shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  --shadow-hover: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
 /* ============================
    Global Styles
 ============================ */
 body {
-  font-family: "Segoe UI", Roboto, sans-serif;
+      font-family: 'Raleway', sans-serif;
   line-height: 1.6;
   background-color: #f8f9fa;
   color: #212529;
@@ -10,58 +26,135 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-  font-weight: 600;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+
+}
+/* ===============================
+   NAVBAR STYLING
+   =============================== */
+.navbar {
+  background: var(--luxe-cream); /* Dark modern background */
+  box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+  padding: 0.6rem 1rem;
+  transition: background 0.3s ease, padding 0.3s ease;
+  border-bottom: 1px solid var(--luxe-dark);
+  border-bottom-left-radius: 50px ;
 }
 
-/* ============================
-   Navbar
-============================ */
 .navbar-brand {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  color: var(--luxe-dark) !important; /* Golden accent */
   letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: var(--luxe-gold) !important;
 }
 
 .navbar-nav .nav-link {
-  margin-right: 10px;
-  transition: color 0.3s ease;
+  color: var(--luxe-light) !important;
+  font-weight: bold;
+  margin-left: 0.8rem;
+  transition: all 0.3s ease, transform 0.2s ease;
 }
+
 .navbar-nav .nav-link:hover {
-  color: #ffc107 !important;
+  color: var(--luxe-gold) !important;
+  transform: translateY(-2px);
+
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--luxe-gold) !important;
+  font-weight: bold;
+  border-bottom: 2px solid var(--luxe-gold);
+}
+
+.navbar-toggler {
+  border: 2px solid var(--luxe-gold) ;
+}
+
+.navbar-toggler:focus {
+  box-shadow: inset 0 0 10px var(--luxe-gold), 0 0 10px var(--luxe-gold);
+}
+
+.btn-outline-light {
+  border: 2px solid var(--luxe-gold);
+  padding: 6px 20px;
+  color: var(--luxe-gold);
+  font-weight: bolder;
+}
+
+.btn-outline-light:hover {
+  background-color: var(--luxe-gold);
+  color: var(--luxe-dark);
+  transform: translateY(-2px);
+    border: 2px solid var(--luxe-gold);
+}
+
+/* ===============================
+   SCROLL EFFECT (Shrink Navbar)
+   =============================== */
+.navbar.scrolled {
+  background: #0f172a;
+  padding: 0.4rem 1rem;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.6);
+  transition: all 0.3s ease;
 }
 
 /* ============================
    Hero Section
 ============================ */
 header {
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-              url('../images/assets_task_01k4qp36feef49pwb9pjhmwgqy_1757436578_img_1.webp') center/cover no-repeat;
-  color: #fff;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+              url('../images/logo2.png') center/cover no-repeat;
+              background-attachment:fixed;
+  backdrop-filter: blur(10px);
   text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
 }
 
-/* ============================
-   Cards (Events, Gallery)
-============================ */
-.card {
-  border: none;
-  border-radius: 12px;
-  overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
-}
-.card img {
-  height: 220px;
-  object-fit: cover;
+.hero-title{
+    font-family: 'Playfair Display', serif;
+    color: var(--luxe-cream);
 }
 
-/* Category pill */
-.card .badge {
-  font-size: 0.75rem;
-  padding: 6px 10px;
-  border-radius: 20px;
+.hero-subtitle{
+  color: var(--border-color);
+}
+.btn-hero1 {
+  border: 2px solid var(--luxe-gold);
+    background-color: var(--luxe-light);
+  padding: 6px 20px;
+  color: var(--luxe-dark);
+  font-weight: bolder;
+      text-shadow: none !important;
+
+}
+
+.btn-hero1:hover {
+  background-color: var(--luxe-dark);
+  color: var(--luxe-gold);
+  transform: translateY(-2px);
+    border: 2px solid var(--luxe-gold);
+    text-shadow: none !important;
+}
+
+.btn-hero2 {
+  border: 2px solid var(--luxe-gold);
+  padding: 6px 20px;
+  background: var(--luxe-g);
+  color: var(--luxe-gold);
+  font-weight: bolder;
+}
+
+.btn-hero2:hover {
+  background-color: var(--luxe-gold);
+  color: var(--luxe-dark);
+  transform: translateY(-2px);
+    border: 2px solid var(--luxe-gold);
+    text-shadow: none !important;
 }
 
 /* Bookmark button */
@@ -77,57 +170,93 @@ header {
   justify-content: center;
   transition: background 0.3s ease, color 0.3s ease;
 }
-.bookmark-btn:hover {
-  background-color: #0d6efd !important;
-  color: #fff !important;
+.bookmark-btn:hover,.bookmark-btn:active {
+  background-color: var(--luxe-gold) !important;
+  color: var(--luxe-dark) !important;
 }
 .bookmark-btn i {
   font-size: 1rem;
 }
 
 /* ============================
-   Modals
-============================ */
-.modal-content {
-  border-radius: 12px;
-}
-.modal-body h3 {
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-.modal-body p {
-  margin-bottom: 8px;
-}
-.modal-body img {
-  border-radius: 8px;
-}
-
-/* ============================
    Footer
 ============================ */
+
 footer {
-  background-color: #212529;
-}
-footer h5 {
-  font-weight: 600;
-  margin-bottom: 1rem;
-}
-footer p, 
-footer a, 
-footer li {
+  background: var(--luxe-dark); /* rich dark background */
   font-size: 0.9rem;
+  line-height: 1.6;
 }
+
+footer h5 {
+  color: var(--luxe-gold);
+  margin-bottom: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+footer p {
+  color: var(--luxe-light);
+  font-size: 0.85rem;
+}
+
+footer a {
+  color: var(--luxe-light) !important;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
 footer a:hover {
-  color: #ffc107;
+  color: var(--luxe-gold) !important;
+  text-decoration: none;
 }
-footer .social-icons a {
-  font-size: 1.2rem;
-  margin-right: 15px;
-  transition: color 0.3s ease;
+
+/* Social Icons */
+footer .bi {
+  vertical-align: middle;
+  transition: transform 0.3s ease, color 0.3s ease;
 }
-footer .social-icons a:hover {
-  color: #0d6efd;
+
+footer a .bi:hover {
+  color: var(--luxe-gold);
+  transform: scale(1.15);
 }
+
+/* Divider */
+footer hr {
+  opacity: 1;
+  border-color: var(--luxe-dark) ;
+  margin: 1.5rem 0;
+}
+
+/* Bottom Row */
+footer .d-flex p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--luxe-dark);
+}
+
+footer .d-flex a {
+  font-size: 0.8rem;
+  margin-right: 0.75rem;
+}
+
+footer .d-flex a:last-child {
+  margin-right: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  footer {
+    text-align: center;
+  }
+
+  footer .d-flex {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}
+
 
 /* ============================
    Buttons
@@ -154,4 +283,89 @@ footer .social-icons a:hover {
   footer .row > div {
     margin-bottom: 2rem;
   }
+}
+
+/* ===============================
+   RESPONSIVE TWEAKS
+   =============================== */
+@media (max-width: 991px) {
+  .navbar {
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar-nav {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .navbar-nav .nav-link {
+    margin: 0.5rem 0;
+    display: inline-block;
+  }
+
+  #authArea {
+    margin-top: 0.8rem;
+  }
+}
+
+/* Wishlist Count Bubble */
+.wishlist-fab {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: var(--luxe-gold);
+  color: var(--luxe-dark);
+  border: none;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 1050;
+}
+
+.wishlist-fab:hover {
+  background: var(--luxe-dark);
+  color: var(--luxe-gold);
+  box-shadow: 0 0 15px var(--luxe-gold);
+  transform: scale(1.08);
+}
+
+.wishlist-count {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: crimson;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 2px 7px;
+  line-height: 1;
+  min-width: 20px;
+  text-align: center;
+}
+
+/* Wishlist counter bounce animation */
+.wishlist-count.wishlist-bounce {
+  animation: bounceScale 0.4s ease;
+}
+
+@keyframes bounceScale {
+  0%   { transform: scale(1); }
+  30%  { transform: scale(1.3); }
+  60%  { transform: scale(0.9); }
+  100% { transform: scale(1); }
+}
+
+
+
+.card-img-top{
+  width: auto;
+  height: 200px;
 }

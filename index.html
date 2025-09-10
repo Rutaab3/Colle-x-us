@@ -7,14 +7,52 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
   <link rel="stylesheet" href="./assets/css/global.css">
+ <style>
+.hero-section {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Video background */
+.hero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+/* Dark overlay */
+.hero-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* adjust darkness */
+  z-index: -1;
+}
+
+/* Text styling */
+.hero-section h1,
+.hero-section p {
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
+</style>
 </head>
 <body>
 
      <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+<nav class="navbar navbar-expand-lg fixed-top">
   <div class="container">
-    <a class="navbar-brand fw-bold" href="index.html">College Events</a>
+    <a class="navbar-brand fw-bold" href="index.html"><img src="./assets/images/logo.png" alt="" style="width: 100px;"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -28,20 +66,12 @@
         <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
         <li class="nav-item"><a class="nav-link" href="feedback.html">Feedback</a></li>
 
-
-        <!-- Bookmark / Wishlist -->
-  <li class="nav-item">
-  <button class="btn btn-outline-warning btn-sm ms-2" data-bs-toggle="modal" data-bs-target="#wishlistModal">
-    <i class="bi bi-bookmark-heart"></i>
-  </button>
-</li>
-
-
-
-        <!-- Login / Signup buttons -->
-       <li class="nav-item ms-lg-3">
-  <div id="authArea" class="ms-auto">
-    <a href="login.html" class="btn btn-outline-light btn-sm" id="loginNavBtn">Login</a>
+               <!-- Login / Signup buttons -->
+<li class="nav-item ms-lg-3 login w-100">
+  <div id="authArea" class="ms-auto "> 
+    <a class="btn btn-outline-warning" id="loginNavBtn" onclick="location.href='login.html'">
+      <i class="fa-solid fa-right-to-bracket me-1" style="z-index: 999;"></i> Login
+    </a>
   </div>
 </li>
 
@@ -51,26 +81,25 @@
 </nav>
 
   <!-- Hero Section with Highlight Cards -->
- <header class="bg-dark text-white d-flex align-items-center justify-content-center" style="height: 100vh;">
+ <header class="bg-dark d-flex align-items-center justify-content-center" style="height: 100vh;">
   <div class="container">
-    <h1 class="display-3 fw-bold">Welcome to College Event Management</h1>
-    <p class="lead">Discover upcoming events, relive past memories, and connect with coordinators.</p>
+    <h1 class="display-3 fw-bold hero-title">Welcome to Collexus Events.</h1>
+    <p class="hero-subtitle">Discover upcoming events, relive past memories, and connect with coordinators.</p>
     
     <!-- CTA Buttons -->
     <div class="mt-4">
-      <a href="events.html" class="btn btn-primary btn-lg me-3">Explore Events</a>
-      <a href="contacts.html" class="btn btn-outline-light btn-lg">Get in Touch</a>
+      <a href="events.html" class="btn btn-hero1 btn-lg me-3">Explore Events</a>
+      <a href="contacts.html" class="btn btn-hero2 btn-lg">Get in Touch</a>
     </div>
   </div>
 </header>
-
 
   <section class="py-5 bg-light">
     <div class="container">
       <div class="row g-4">
         <!-- Example hero cards -->
         <div class="col-md-4">
-          <div class="card text-white h-100 shadow" style="background:url('assets/images/hero1.jpg') center/cover no-repeat;">
+          <div class="card h-100 shadow" style="background:url('assets/images/logo2.png') center/cover no-repeat;">
             <div class="card-body d-flex flex-column justify-content-end bg-dark bg-opacity-50">
               <h3 class="card-title">Cultural Fest</h3>
               <p class="card-text">Experience colors, music & talent.</p>
@@ -78,7 +107,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card text-white h-100 shadow" style="background:url('assets/images/hero2.jpg') center/cover no-repeat;">
+          <div class="card h-100 shadow" style="background:url('assets/images/logo2.png') center/cover no-repeat;">
             <div class="card-body d-flex flex-column justify-content-end bg-dark bg-opacity-50">
               <h3 class="card-title">Tech Symposium</h3>
               <p class="card-text">Showcase innovation & projects.</p>
@@ -86,7 +115,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card text-white h-100 shadow" style="background:url('assets/images/hero3.jpg') center/cover no-repeat;">
+          <div class="card h-100 shadow" style="background:url('assets/images/logo2.png') center/cover no-repeat;">
             <div class="card-body d-flex flex-column justify-content-end bg-dark bg-opacity-50">
               <h3 class="card-title">Sports Meet</h3>
               <p class="card-text">Play hard, celebrate victory.</p>
@@ -130,7 +159,7 @@
   </section>
 
 <!-- Footer -->
-<footer class="bg-dark text-light pt-5">
+<footer class=" pt-5">
   <div class="container">
     <div class="row text-md-start text-center">
       
@@ -147,11 +176,11 @@
       <div class="col-md-2 mb-4">
         <h5 class="fw-bold">Quick Links</h5>
         <ul class="list-unstyled small">
-          <li><a href="index.html" class="text-light text-decoration-none">Home</a></li>
-          <li><a href="events.html" class="text-light text-decoration-none">Events</a></li>
-          <li><a href="gallery.html" class="text-light text-decoration-none">Gallery</a></li>
-          <li><a href="about.html" class="text-light text-decoration-none">About</a></li>
-          <li><a href="contacts.html" class="text-light text-decoration-none">Contact</a></li>
+          <li><a href="index.html" class=" text-decoration-none">Home</a></li>
+          <li><a href="events.html" class=" text-decoration-none">Events</a></li>
+          <li><a href="gallery.html" class=" text-decoration-none">Gallery</a></li>
+          <li><a href="about.html" class=" text-decoration-none">About</a></li>
+          <li><a href="contacts.html" class=" text-decoration-none">Contact</a></li>
         </ul>
       </div>
 
@@ -159,11 +188,11 @@
       <div class="col-md-2 mb-4">
         <h5 class="fw-bold">Events</h5>
         <ul class="list-unstyled small">
-          <li><a href="events.html#cultural" class="text-light text-decoration-none">Cultural</a></li>
-          <li><a href="events.html#technical" class="text-light text-decoration-none">Technical</a></li>
-          <li><a href="events.html#sports" class="text-light text-decoration-none">Sports</a></li>
-          <li><a href="events.html#workshops" class="text-light text-decoration-none">Workshops</a></li>
-          <li><a href="events.html#alumni" class="text-light text-decoration-none">Alumni Meet</a></li>
+          <li><a href="events.html#cultural" class=" text-decoration-none">Cultural</a></li>
+          <li><a href="events.html#technical" class=" text-decoration-none">Technical</a></li>
+          <li><a href="events.html#sports" class=" text-decoration-none">Sports</a></li>
+          <li><a href="events.html#workshops" class=" text-decoration-none">Workshops</a></li>
+          <li><a href="events.html#alumni" class=" text-decoration-none">Alumni Meet</a></li>
         </ul>
       </div>
 
@@ -171,11 +200,11 @@
       <div class="col-md-2 mb-4">
         <h5 class="fw-bold">Galleries</h5>
         <ul class="list-unstyled small">
-          <li><a href="gallery.html#cultural" class="text-light text-decoration-none">Cultural</a></li>
-          <li><a href="gallery.html#technical" class="text-light text-decoration-none">Technical</a></li>
-          <li><a href="gallery.html#sports" class="text-light text-decoration-none">Sports</a></li>
-          <li><a href="gallery.html#workshops" class="text-light text-decoration-none">Workshops</a></li>
-          <li><a href="gallery.html#alumni" class="text-light text-decoration-none">Alumni Meet</a></li>
+          <li><a href="gallery.html#cultural" class=" text-decoration-none">Cultural</a></li>
+          <li><a href="gallery.html#technical" class=" text-decoration-none">Technical</a></li>
+          <li><a href="gallery.html#sports" class=" text-decoration-none">Sports</a></li>
+          <li><a href="gallery.html#workshops" class=" text-decoration-none">Workshops</a></li>
+          <li><a href="gallery.html#alumni" class=" text-decoration-none">Alumni Meet</a></li>
         </ul>
       </div>
 
@@ -185,23 +214,23 @@
         <ul class="list-unstyled small">
           <li class="mb-2">
             <i class="bi bi-geo-alt-fill me-2"></i>
-            <a href="contacts.html" class="text-light text-decoration-none">123 College Road, City</a>
+            <a href="contacts.html" class=" text-decoration-none">123 College Road, City</a>
           </li>
           <li class="mb-2">
             <i class="bi bi-telephone-fill me-2"></i>
-            <a href="contacts.html" class="text-light text-decoration-none">+91-9876543210</a>
+            <a href="contacts.html" class=" text-decoration-none">+91-9876543210</a>
           </li>
           <li class="mb-2">
             <i class="bi bi-envelope-fill me-2"></i>
-            <a href="contacts.html" class="text-light text-decoration-none">info@collexus.edu</a>
+            <a href="contacts.html" class=" text-decoration-none">info@collexus.edu</a>
           </li>
         </ul>
         <!-- Social Links -->
         <div class="mt-3">
-          <a href="https://facebook.com" target="_blank" class="text-light me-3"><i class="bi bi-facebook fs-5"></i></a>
-          <a href="https://twitter.com" target="_blank" class="text-light me-3"><i class="bi bi-twitter fs-5"></i></a>
-          <a href="https://instagram.com" target="_blank" class="text-light me-3"><i class="bi bi-instagram fs-5"></i></a>
-          <a href="https://linkedin.com" target="_blank" class="text-light"><i class="bi bi-linkedin fs-5"></i></a>
+          <a href="https://facebook.com" target="_blank" class=" me-3"><i class="bi bi-facebook fs-5"></i></a>
+          <a href="https://twitter.com" target="_blank" class=" me-3"><i class="bi bi-twitter fs-5"></i></a>
+          <a href="https://instagram.com" target="_blank" class=" me-3"><i class="bi bi-instagram fs-5"></i></a>
+          <a href="https://linkedin.com" target="_blank" class=""><i class="bi bi-linkedin fs-5"></i></a>
         </div>
       </div>
     </div>
@@ -212,13 +241,21 @@
     <div class="d-flex justify-content-between align-items-center pb-3 flex-wrap small">
       <p class="mb-2">&copy; 2025 Collexus. All rights reserved.</p>
       <div class="mb-2">
-        <a href="privacy.html" class="text-light me-3 text-decoration-none">Privacy Policy</a>
-        <a href="terms.html" class="text-light me-3 text-decoration-none">Terms of Service</a>
-        <a href="cookies.html" class="text-light text-decoration-none">Cookies Policy</a>
+        <a href="privacy.html" class=" me-3 text-decoration-none">Privacy Policy</a>
+        <a href="terms.html" class=" me-3 text-decoration-none">Terms of Service</a>
+        <a href="cookies.html" class=" text-decoration-none">Cookies Policy</a>
       </div>
     </div>
   </div>
 </footer>
+
+<!-- Floating Wishlist Button -->
+<button class="wishlist-fab" data-bs-toggle="modal" data-bs-target="#wishlistModal">
+  <i class="bi bi-bookmark-heart"></i>
+  <span class="wishlist-count">0</span>
+</button>
+
+
 
 <!-- Details Modal -->
 <div class="modal fade" id="detailsModal" tabindex="-1" aria-hidden="true">
@@ -251,10 +288,40 @@
   </div>
 </div>
 
+<!-- Profile Modal -->
+<div class="modal fade" id="profileModal" tabindex="-1" aria-labelledby="profileModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header bg-dark">
+        <h5 class="modal-title" id="profileModalLabel">User Profile</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="d-flex align-items-center mb-3">
+          <img id="profileImage" src="" class="rounded-circle me-3" width="60" height="60" alt="Profile">
+          <div>
+            <h5 id="profileName" class="mb-0"></h5>
+            <small id="profileEmail" class="text-muted"></small>
+          </div>
+        </div>
+        <hr>
+        <h6>Registered Events</h6>
+        <ul id="registeredEvents" class="list-group list-group-flush mb-3"></ul>
+        <h6>Bookmarked Events</h6>
+        <ul id="bookmarkedEvents" class="list-group list-group-flush"></ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
   <script src="./assets/js/index.js"></script>
   <script src="./assets/js/wishlist.js"></script>
   <script src="./assets/js/auth.js"></script>
